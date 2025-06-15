@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "prettier": "3.5.3",
     "vitepress": "^1.6.3"
   },
@@ -8,6 +10,10 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "format:check": "prettier --check .",
-    "format:write": "prettier --write ."
+    "format:write": "prettier --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
