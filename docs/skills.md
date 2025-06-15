@@ -125,10 +125,6 @@ I have applied these frameworks and techniques in various projects, including:
 - My work includes statistical analysis, exploratory data analysis (EDA), and feature engineering for machine learning models.
 - I have applied these skills in various domains, including traffic data analysis, geospatial data processing, and housing market analysis.
 
-- **Tools**: Pandas, NumPy, Matplotlib, Geopandas
-- **Techniques**: Data cleaning, visualization, and statistical analysis
-- **Applications**: Data-driven decision making, ML preprocessing, and feature engineering
-
 ---
 
-If you have any questions about my skills or would like to discuss potential collaborations, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/fabian-reinold) or [GitHub](https://github.com/freinold).
+If you have further questions about my skills or would like to discuss potential collaborations, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/fabian-reinold) or [GitHub](https://github.com/freinold).
