@@ -1,0 +1,16 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:recommended", // recommended configuration
+    "config:best-practices", // best practices
+    "customManagers:githubActionsVersions", // manages _VERSION variables in GitHub Action workflows
+    "helpers:pinGitHubActionDigestsToSemver", // pin to digest with semver as comment
+    ":npm", // update package.json and package-lock.json
+    "npm:unpublishSafe", // used to make sure updates are only done after the npm package is "stable" (at least for 3 days)
+    ":pinAllExceptPeerDependencies", // pin all dependencies except peer dependencies
+    "schedule:weekly", // run weekly
+    ":separateMultipleMajorReleases", // separate major updates of dependencies into separate PRs
+    ":timezone(Europe/Berlin)", // sets correct timezone for schedule based operations
+    "security:openssf-scorecard", // show OpenSSF badge on pull requests to evaluate security health metrics for dependencies
+  ],
+}
