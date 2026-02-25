@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 🏢
     title: Work & AI Expertise
-    details: "ML Engineer at it@M & part of the AI Competence Center, focusing on AI solutions for munich's public services."
+    details: "ML Engineer and AI team lead at it@M, focusing on AI solutions for munich's city adminstration."
     link: https://ki.muenchen.de
     linkText: "Learn more"
   - icon: 🧰
